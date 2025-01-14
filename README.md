@@ -1,4 +1,4 @@
-# Transcription d'une vidéo YouTube
+# Préparation d'un article pour Bioinfo-fr.net
 
 30/12/2024
 
@@ -82,4 +82,5 @@ Prompt ChatGPT 4o :
 > Organise le texte suivant sur Software Heritage sous la forme d'un article de blog à destination de bioinformaticiens. L'article doit être structuré et factuel. N'enjolive pas mais donne envie aux lecteurs d'archiver leur code dans Software Heritage :
 > [contenu de audio_text.txt]
 
-[Réponse](2024-12-30_chatgpt_text.md)
+- [Réponse de ChatGPT](2024-12-30_chatgpt_text.md)
+- [Version 1 après reprise et relecture](2025-01-14_v1.md)
