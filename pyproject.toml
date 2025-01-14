@@ -2,7 +2,7 @@
 authors = [{name = "Pierre Poulain", email = "pierre.poulain@cupnet.net"}]
 description = "Transcribe an excerpt from a YouTube video"
 name = "groq_whisper"
-requires-python = ">= 3.11"
+requires-python = ">= 3.12"
 version = "0.1.0"
 dependencies = ["groq>=0.13.1,<0.14", "yt-dlp[default]>=2024.12.23,<2025"]
 
