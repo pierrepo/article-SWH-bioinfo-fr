@@ -1,0 +1,37 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Bioinformatics",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0003-4177-3619",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Université Paris Cité"
+            },
+            "email": "pierre.poulain@cupnet.net",
+            "familyName": "Poulain",
+            "givenName": "Pierrre"
+        }
+    ],
+    "codeRepository": "https://github.com/pierrepo/article-SWH-bioinfo-fr",
+    "dateCreated": "2025-01-14",
+    "description": "Ce dépôt contient les ressources pour préparer un article de blog sur [Software Heritage](https://www.softwareheritage.org/) pour le site [Bioinfo-fr](https://bioinfo-fr.net/).",
+    "keywords": [
+        "Software Heritage",
+        "bioinformatics"
+    ],
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "name": "Préparation d'un article sur Software Heritage pour Bioinfo-fr",
+    "programmingLanguage": "Python",
+    "softwareRequirements": [
+        "Python>=3.12",
+        "groq",
+        "yt-dlp",
+        "ffmpeg",
+        "ruff"
+    ],
+    "developmentStatus": "concept",
+    "issueTracker": "https://github.com/pierrepo/article-SWH-bioinfo-fr/issues"
+}
