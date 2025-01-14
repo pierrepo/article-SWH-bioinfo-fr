@@ -1,7 +1,7 @@
 [project]
 authors = [{name = "Pierre Poulain", email = "pierre.poulain@cupnet.net"}]
-description = "Transcribe an excerpt from a YouTube video"
-name = "groq_whisper"
+description = "Préparation d'un article sur Software Heritage pour Bioinfo-fr"
+name = "Préparation d'un article sur Software Heritage pour Bioinfo-fr"
 requires-python = ">= 3.12"
 version = "0.1.0"
 dependencies = ["groq>=0.13.1,<0.14", "yt-dlp[default]>=2024.12.23,<2025"]
