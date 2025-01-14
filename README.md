@@ -1,6 +1,7 @@
-# Préparation d'un article pour Bioinfo-fr.net
+# Préparation d'un article sur Software Heritage pour Bioinfo-fr
 
-30/12/2024
+Ce dépôt contient les ressources pour préparer un article de blog sur [Software Heritage](https://www.softwareheritage.org/) pour le site [Bioinfo-fr](https://bioinfo-fr.net/).
+
 
 ## Ressources
 
@@ -20,6 +21,7 @@ ffmpeg \
   -map 0:a: \
   <output file name>
 ```
+
 
 ## Préparation du fichier audio
 
@@ -61,6 +63,7 @@ $ ls -lh audio*
 -rw-rw-r-- 1 pierre pierre  19M déc.  30 11:33 audio.mp3
 ```
 
+
 ## Transcription
 
 Exporter la [clé d'API Groq](https://console.groq.com/keys) :
@@ -74,6 +77,7 @@ Lancer la transcription :
 ```bash
 pixi run python transcript.py > audio_text.txt
 ```
+
 
 ## Préparation de l'article de blog
 
